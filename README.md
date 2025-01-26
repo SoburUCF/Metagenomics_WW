@@ -60,3 +60,8 @@ Submit the Job to SLURM
 sbatch centrifuge_download.sh
 ```
 
+To build the index, first concatenate all downloaded bacteria sequences into a single file
+
+```
+cat library/bacteria/*.fna > input-sequences.fna
+```
